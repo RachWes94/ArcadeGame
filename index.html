@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Winner Modal -->
+  <div id='winner' class='modal hidden'>
+    <div class="winner">
+      <h1><strong>Good Job!</strong></h1>
+      <h3>You got past all the bugs!</h3>
+      <button id='button'>Play Again</button>
+    </div>
+  </div>
+<!-- Starting Over Modal -->
+  <div id='startOver' class="modal hidden">
+    <div class="startOver">
+      <h3>You ran into a bug!</h3>
+      <h3>Starting Over...</h3>
+    </div>
+  </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
